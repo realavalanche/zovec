@@ -7,7 +7,7 @@ $white: #fff;
 $black: #39345a;
 $darken: #7782aa;
 
-$primary: #167ce9;
+$primary: #F0F2F0;
 
 
 @mixin gradient-background(){
@@ -18,7 +18,7 @@ $primary: #167ce9;
 	background: -o-linear-gradient(45deg, rgba(22,124,233,1) 0%, rgba(121,239,180,1) 100%);
 	background: -ms-linear-gradient(45deg, rgba(22,124,233,1) 0%, rgba(121,239,180,1) 100%);
 	background: linear-gradient(45deg, rgba(22,124,233,1) 0%, rgba(121,239,180,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#167ce9', endColorstr='#79efb4', GradientType=1 );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0F2F0', endColorstr='#000C99', GradientType=1 );
 }
 
 @mixin border-radius($radius) {
@@ -1087,7 +1087,7 @@ textarea.form-control {
 
 
 .ftco-section {
-	padding: 7em 0;
+	padding: 4em 0;
 	position: relative;
 	@include media-breakpoint-down(sm){
 		padding: 6em 0;
@@ -1106,7 +1106,7 @@ textarea.form-control {
 
 .ftco-footer {
 	font-size: 16px;
-	padding: 8em 0 8em 0;
+	// padding: 8em 0 8em 0;
 	.overlay{
 		position: absolute;
 		top: 0;
@@ -1323,7 +1323,9 @@ textarea.form-control {
 	background-repeat: no-repeat;
 	background-position: center center;
 }
-
+.product-img {
+  background-size: contain;
+}
 
 //ABOUT WITH VIDEO
 .ftco-section-2 {
