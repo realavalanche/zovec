@@ -7770,7 +7770,8 @@ h1, h2, h3, h4, h5,
 .dept {
   width: 100%;
   display: block;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  border: 1px solid #d0e5fb; }
   .dept .img {
     width: 45%; }
     @media (max-width: 767.98px) {
@@ -7780,14 +7781,16 @@ h1, h2, h3, h4, h5,
         display: block; } }
   .dept .text {
     width: 55%;
-    bordeR: 1px solid #d0e5fb;
-    border-left: 1px solid transparent; }
+    /* bordeR: 1px solid #d0e5fb; */
+    /* border-left: 1px solid transparent;  */
+  }
     @media (max-width: 767.98px) {
       .dept .text {
         width: 100%;
         display: block;
-        bordeR: 1px solid #d0e5fb;
-        border-top: 1px solid transparent; } }
+        /* bordeR: 1px solid #d0e5fb;
+        border-top: 1px solid transparent; */
+       } }
     .dept .text h3 {
       margin-bottom: 0; }
     .dept .text .doc {
@@ -8129,14 +8132,14 @@ textarea.form-control {
   font-size: 24px; }
 
 .ftco-section {
-  padding: 4em 0;
+  padding: 2em 0;
   position: relative; }
   @media (max-width: 767.98px) {
     .ftco-section {
-      padding: 6em 0; } }
+      padding: 3em 0; } }
   @media (min-width: 768px) {
     .ftco-section .container-fluid {
-      padding: 0 4em; } }
+      padding: 0 2em; } }
 
 .ftco-bg-dark {
   background: #3c312e; }
