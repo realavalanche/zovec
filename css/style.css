@@ -7780,7 +7780,12 @@ h1, h2, h3, h4, h5,
   width: 100%;
   display: block;
   margin-bottom: 30px;
-  border: 1px solid #d0e5fb; }
+  border: 1px solid #d0e5fb;
+  opacity: 0.7; }
+  .dept:hover{
+    box-shadow: 2px 2px 20px 2px #add8e6;
+    opacity: 1;
+  }
   .dept .img {
     width: 45%; }
     @media (max-width: 767.98px) {
