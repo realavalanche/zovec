@@ -1724,7 +1724,8 @@ textarea.form-control {
 			left: 0;
 			right: 0;
 			padding: 20px;
-			background: rgba(255,255,255,.95);
+			// background: rgba(255,255,255,.95);
+			background: linear-gradient(45deg, white, transparent);
 			h2, p {
 				color: $black;
 				margin: 0;
