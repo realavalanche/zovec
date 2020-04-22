@@ -7495,16 +7495,23 @@ h1, h2, h3, h4, h5,
   color: #fff;
   height: 450px; }
   .slider-text h1 {
-    font-size: 60px;
+    font-size: 30px;
     color: #fff;
     line-height: 1.2;
     font-weight: 400;
     text-transform: uppercase; }
+    .slider-text h2 {
+      font-size: 20px;
+      line-height: 1.5;
+      font-weight: 400;
+      color: rgba(255, 255, 255, 0.8);
+      text-transform: uppercase;
+    }
     @media (max-width: 991.98px) {
       .slider-text h1 {
         font-size: 40px; } }
   .slider-text p {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 1.5;
     font-weight: 300;
     color: rgba(255, 255, 255, 0.8); }
@@ -7669,6 +7676,16 @@ h1, h2, h3, h4, h5,
     .ftco-services .nav-link-wrap {
       background: #000C49;
       margin-top: 30px; } }
+
+  .blink-me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 
 .ftco-services .nav-pills p {
   margin-bottom: 0; }
