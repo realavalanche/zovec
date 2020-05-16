@@ -520,7 +520,7 @@ mark,
 }
 
 .img-fluid-overview:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   box-shadow: 1px 1px 100px 1px whitesmoke;
   border-radius: 3px;
   z-index: 1000;
