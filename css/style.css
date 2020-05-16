@@ -4116,7 +4116,7 @@ input[type="button"].btn-block {
 
 .nav-link {
   display: block;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 }
 .nav-link:hover,
 .nav-link:focus {
@@ -9971,7 +9971,7 @@ h5,
   border-radius: 0;
   margin-bottom: 0;
   color: rgba(255, 255, 255, 0.6);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   position: relative;
 }
@@ -9996,7 +9996,7 @@ h5,
 .ftco-services .nav-pills .nav-link.active,
 .ftco-services .nav-pills .nav-link:hover {
   color: #fff;
-  font-size: 20px;
+  font-size: 18px;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -10308,6 +10308,9 @@ h5,
   }
 }
 
+.zindex {
+  z-index: 11;
+}
 .block-5 {
   overflow: hidden;
   background-size: cover;
